@@ -126,7 +126,7 @@ lambda_packages = {
     },
     'python-saml': {
         'python2.7': {
-            'version': '0.12.0',
+            'version': '2.2.3',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                                  'python-saml',
                                  'python2.7-python-saml-2.2.3.tar.gz'),
