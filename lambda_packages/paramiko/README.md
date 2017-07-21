@@ -1,7 +1,6 @@
 ## Build
 
-`./build.sh paramiko 2.1.2`
+`./create-build.sh`
 
-```bash
-docker run --paramiko -v "$PWD":/var/task lambci/lambda:build-python2.7 ls -al
-```
+## Test
+`cd lambda; zappa deploy test; zappa invoke test 'app.test'`
