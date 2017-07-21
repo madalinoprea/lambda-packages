@@ -79,9 +79,9 @@ lambda_packages = {
     },
     'paramiko': {
         'python2.7': {
-            'version': '2.1.2',
+            'version': '2.2.1',
             'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                 'paramiko', 'python2.7-paramiko-2.1.2.tar.gz')
+                                 'paramiko', 'python2.7-paramiko-2.2.1.tar.gz')
         }
     },
     'psycopg2': {

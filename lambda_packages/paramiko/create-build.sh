@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PACKAGE=${1:-paramiko}
-VERSION=${2:-2.1.2}
+VERSION=${2:-2.2.1}
 CONTAINER_NAME="lambda-packages-$PACKAGE"
 
 docker run --name ${CONTAINER_NAME} -v "$PWD":/var/task lambci/lambda:build-python2.7 \

@@ -29,8 +29,6 @@ echo "install pips"
 pip install --verbose --use-wheel --no-dependencies --target ${TARGET_DIR} "${PACKAGE}==${VERSION}"
 deactivate
 
-ls -al ${TARGET_DIR}
-
 cd ${TARGET_DIR} && tar -zcvf ../../../${PACKAGE}-${VERSION}.tar.gz * && cd ../../..
 rm -rf ${TMP_DIR}
 rm -rf ${ENV}
