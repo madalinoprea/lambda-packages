@@ -3,6 +3,7 @@ import paramiko
 
 
 def test():
+    print 'Paramiko version', paramiko.__version__
     client = paramiko.SSHClient()
     print client
 
