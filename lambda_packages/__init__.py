@@ -124,6 +124,14 @@ lambda_packages = {
                                  'python-Levenshtein', 'python2.7-python-Levenshtein-0.12.0.tar.gz'),
         }
     },
+    'python-saml': {
+        'python2.7': {
+            'version': '0.12.0',
+            'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                 'python-saml',
+                                 'python2.7-python-saml-2.2.3.tar.gz'),
+        }
+    },
     'regex': {
         'python2.7': {
             'version': '2016.8.27',

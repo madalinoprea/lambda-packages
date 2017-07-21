@@ -1,0 +1,9 @@
+{
+    "test": {
+        "project_name": "python-saml-hello",
+        "lambda_description": "Hello world from python-saml",
+        "app_function": "app.test",
+        "apigateway_enabled": false,
+        "keep_warm": false
+    }
+}
